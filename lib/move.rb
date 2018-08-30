@@ -3,6 +3,10 @@ def input_to_index(strNum)
   return (idxNum - 1)
 end
 
+def update_array_at_with(board, idxNum, chrVal)
+  board[idxNum] = chrVal
+end
+
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
