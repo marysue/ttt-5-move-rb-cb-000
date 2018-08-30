@@ -3,7 +3,7 @@ def input_to_index(strNum)
   return (idxNum - 1)
 end
 
-def move(board, idxNum, chrVal = "?")
+def move(board, idxNum, chrVal = "X")
   board[idxNum] = chrVal
 end
 
